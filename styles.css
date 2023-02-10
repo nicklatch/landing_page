@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    /*outline: 1px black solid;*/
 }
 
 body {
@@ -12,7 +13,8 @@ body {
 }
 
 h1,
-h2{
+h2,
+h3{
     padding: 0;
     margin: 0;
 }
@@ -36,6 +38,12 @@ a {
     color: #E5E7EB;
 }
 
+footer {
+    margin-top: auto;
+    padding: 95px;
+    text-align: center;
+}
+
 /* !classes! */
 
 .ul {
@@ -51,7 +59,7 @@ a {
 /* HEADER */
 .header,
 .main-one,
-.footer {
+footer {
     background-color: #1F2937;
     padding: 0 95px;
 }
@@ -59,6 +67,14 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.footer {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 80px;
 }
 
 /*MAIN ONE*/
@@ -107,9 +123,10 @@ a {
     height: 200px;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 
-/*MAIN TWO */
+/* MAIN TWO */
 
 .main-two {
     display: flex;
@@ -117,6 +134,7 @@ a {
     align-items: center;
     flex-direction: column;
     padding: 0 95px;
+    margin-bottom: 70px;
 }
 
 .upper-head {
@@ -128,8 +146,7 @@ a {
 .h2 {
     padding: 16px;
     font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
+    font-weight: 900;
 }
 
 .card-container {
@@ -158,6 +175,63 @@ a {
     align-items: center;
 }
 
+/* MAIN THREE */
+
+.main-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 95px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding: 5px;
+}
+
+
+/* MAIN FOUR */
+
+.main-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 95pxs
+}
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    margin: 60px 95px;
+    padding: 20px;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.sub-action > p {
+    margin: 0;
+}
+
+.bottom {
+    outline: 1px solid #E5E7EB;
+}
 
 
 
